@@ -18,7 +18,7 @@ Welcome to the **WarGames Secure Gradebook System**, a terminal-based hacking si
 
 ## 🎮 How to Play / Hack the System
 
-### SPOILER ALERT: IF YOU WANT TO SOLVE THE CHALLENGE ON YOUR OWN DON't RESS PLAY
+### SPOILER ALERT: IF YOU WANT TO SOLVE THE CHALLENGE ON YOUR OWN DON'T PRESS PLAY
 
 
 
