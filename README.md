@@ -18,6 +18,14 @@ Welcome to the **WarGames Secure Gradebook System**, a terminal-based hacking si
 
 ## 🎮 How to Play / Hack the System
 
+
+
+
+https://github.com/user-attachments/assets/3e4cbb37-d630-49ee-86eb-ef619624d258
+
+
+
+
 ### What does it all look like?
 <img width="894" alt="image" src="https://github.com/user-attachments/assets/dc625071-eb60-4f25-81d0-1c4bd16cbae3" />
 
