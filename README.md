@@ -17,6 +17,16 @@ Welcome to the **WarGames Secure Gradebook System**, a terminal-based hacking si
 - 🖥 A Unix-based terminal (Linux/macOS) or Windows Terminal with curses support
 
 ## 🎮 How to Play / Hack the System
+
+### What does it all look like?
+<img width="894" alt="image" src="https://github.com/user-attachments/assets/dc625071-eb60-4f25-81d0-1c4bd16cbae3" />
+
+<img width="845" alt="image" src="https://github.com/user-attachments/assets/b299f491-8054-46d8-943b-221008b0af06" />
+
+
+
+
+
 1. **Run the script:** 🏃‍♂️
    ```bash
    python secure_gradebook.py
