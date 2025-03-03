@@ -1,0 +1,34 @@
+name: aTotallyNormalGradebook
+description: "A CTF-style gradebook simulation with intentional security vulnerabilities for exploitation practice."
+owner: NoamAdept
+repo: "https://github.com/NoamAdept/aTotallyNormalGradebook"
+tags:
+  - CTF
+  - security
+  - buffer overflow
+  - format string vulnerability
+  - Python
+  - curses
+license: MIT
+ci: GitHub Actions
+language:
+  - Python
+topics:
+  - Security
+  - Reverse Engineering
+  - Ethical Hacking
+  - Exploitation
+dependencies:
+  - Python 3.x
+  - curses
+  - random
+  - os
+build:
+  system: None
+  steps:
+    - name: Install dependencies
+      command: pip install -r requirements.txt
+run:
+  steps:
+    - name: Start Application
+      command: python3 main.py
