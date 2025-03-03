@@ -1,34 +1,36 @@
 name: aTotallyNormalGradebook
 description: "A CTF-style gradebook simulation with intentional security vulnerabilities for exploitation practice."
-owner: NoamAdept
-repo: "https://github.com/NoamAdept/aTotallyNormalGradebook"
-tags:
-  - CTF
-  - security
-  - buffer overflow
-  - format string vulnerability
-  - Python
-  - curses
-license: MIT
-ci: GitHub Actions
-language:
-  - Python
-topics:
-  - Security
-  - Reverse Engineering
-  - Ethical Hacking
-  - Exploitation
-dependencies:
-  - Python 3.x
-  - curses
-  - random
-  - os
-build:
-  system: None
-  steps:
-    - name: Install dependencies
-      command: pip install -r requirements.txt
-run:
-  steps:
-    - name: Start Application
-      command: python3 main.py
+project_url: "https://github.com/NoamAdept/aTotallyNormalGradebook"
+documentation: "https://github.com/NoamAdept/aTotallyNormalGradebook/blob/main/README.md"
+
+security:
+  vulnerabilities:
+    - id: "format-string"
+      description: "User-controlled format string vulnerability in complaint submission."
+      severity: "high"
+    - id: "buffer-overflow"
+      description: "Dialing a long phone number can trigger eval() execution."
+      severity: "critical"
+    - id: "arbitrary-code-execution"
+      description: "eval() is used without input validation, allowing arbitrary Python code execution."
+      severity: "critical"
+    - id: "information-leak"
+      description: "Leaking secret phone number digits through admin panel."
+      severity: "medium"
+    - id: "shell-execution"
+      description: "Function executes an interactive shell through /bin/sh."
+      severity: "high"
+
+environments:
+  - name: "Python3"
+    dependencies:
+      - "curses"
+      - "os"
+      - "random"
+      - "string"
+
+execution:
+  entrypoint: "python3 main.py"
+
+contributing:
+  guidelines: "https://github.com/NoamAdept/aTotallyNormalGradebook/blob/main/CONTRIBUTING.md"
