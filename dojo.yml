@@ -13,3 +13,4 @@ image: NoamAdept/aTotallyNormalGradebook-
 modules:
   - id: wargames
   
+entrypoint: ["python3", "app.py"]
