@@ -11,9 +11,5 @@ award:
 image: pwncollege/challenge-gradebook
 
 modules:
-  - id: introduction
-  - id: buffer-overflow
-  - id: format-string
-  - id: arbitrary-code-execution
-  - id: information-leak
-  - id: shell-execution
+  - id: wargames
+  
