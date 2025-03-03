@@ -8,7 +8,7 @@ type: challenge
 award:
   belt: white
 
-image: pwncollege/challenge-gradebook
+image: NoamAdept/aTotallyNormalGradebook-
 
 modules:
   - id: wargames
