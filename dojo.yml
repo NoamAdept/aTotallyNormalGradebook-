@@ -1,36 +1,18 @@
-name: aTotallyNormalGradebook
-description: "A CTF-style gradebook simulation with intentional security vulnerabilities for exploitation practice."
-project_url: "https://github.com/NoamAdept/aTotallyNormalGradebook"
-documentation: "https://github.com/NoamAdept/aTotallyNormalGradebook/blob/main/README.md"
+id: aTotallyNormalGradebook
 
-security:
-  vulnerabilities:
-    - id: "format-string"
-      description: "User-controlled format string vulnerability in complaint submission."
-      severity: "high"
-    - id: "buffer-overflow"
-      description: "Dialing a long phone number can trigger eval() execution."
-      severity: "critical"
-    - id: "arbitrary-code-execution"
-      description: "eval() is used without input validation, allowing arbitrary Python code execution."
-      severity: "critical"
-    - id: "information-leak"
-      description: "Leaking secret phone number digits through admin panel."
-      severity: "medium"
-    - id: "shell-execution"
-      description: "Function executes an interactive shell through /bin/sh."
-      severity: "high"
+name: A Totally Normal Gradebook
 
-environments:
-  - name: "Python3"
-    dependencies:
-      - "curses"
-      - "os"
-      - "random"
-      - "string"
+type: challenge
 
-execution:
-  entrypoint: "python3 main.py"
+award:
+  belt: white
 
-contributing:
-  guidelines: "https://github.com/NoamAdept/aTotallyNormalGradebook/blob/main/CONTRIBUTING.md"
+image: pwncollege/challenge-gradebook
+
+modules:
+  - id: introduction
+  - id: buffer-overflow
+  - id: format-string
+  - id: arbitrary-code-execution
+  - id: information-leak
+  - id: shell-execution
