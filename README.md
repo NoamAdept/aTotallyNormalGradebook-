@@ -49,13 +49,7 @@ https://github.com/user-attachments/assets/3e4cbb37-d630-49ee-86eb-ef619624d258
    ```
    SHALL WE PLAY A GAME? 🤖
    ```
-
-## ⚠️ Security Vulnerabilities (For "Educational" Purposes Only) 🤫
-- 🔒 **Hardcoded Admin Username**: *Joshua?* No, but close. 🤖
-- 📝 **Format String Exploit**: Let the system do the work for you. 🏗
-- 💥 **Buffer Overflow Simulation**: Because nothing says "secure" like `eval(input)`. 🙈
-- 🕵️ **Secret Leaks**: Extract secrets, one digit at a time—just like real hacking! 🕶
-
+   
 ## 🚨 Disclaimer
 This project is **for educational and entertainment purposes only**. 🎭 Any resemblance to real-life hacking scenarios is purely coincidental. Do not attempt to use these techniques in real-world systems, or you might get a visit from NORAD. 🏢 **Would you like to play a game?** 🤖
 
